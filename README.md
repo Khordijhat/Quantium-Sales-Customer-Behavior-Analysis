@@ -85,6 +85,95 @@ FROM Transaction_data T
 JOIN purchased_behaviour P
     ON T.loyalty_card_number = P.loyalty_card_number;
 ```
+## Data Cleaning Examples
+Some product names contained inconsistent abbreviations or spelling variations.
+
+For example:
+
+•	GrnWves → Grain Waves
+
+•	Infz → Infuzions
+
+•	NNC → Natural Chip Co
+
+•	RRD → Red Rock Deli
+
+Standardizing these values made it possible to accurately group products and brands during analysis.
+## 📊 Analysis & Visualizations
+### 1. Monthly Sales Trend
+A monthly revenue trend was created to understand how sales changed throughout the observation period.
+
+#### Purpose:
+
+•	Identify periods of high and low sales
+
+•	Observe changes in demand over time
+
+•	Support sales and inventory planning
+### 2. Top Sales by Revenue
+Products/categories were ranked according to their total revenue contribution.
+
+####Purpose:
+
+•	Identify major revenue contributors
+
+•	Understand which products drive sales
+
+•	Support product and promotional decisions
+### 3. Revenue by Product Level
+Revenue was analyzed across individual product categories and product lines.
+
+#### Purpose:
+
+•	Identify high-performing products
+
+•	Compare product-level performance
+
+•	Understand which products contribute most to overall revenue
+### 4. Top 10 Brands by Revenue
+The top 10 brands were compared based on total revenue after standardizing brand names.
+
+#### Purpose:
+
+•	Identify the strongest-performing brands
+
+•	Understand consumer brand preferences
+
+•	Highlight brands contributing significantly to overall revenue
+### 5. Revenue by Product Weight
+Products were grouped into three weight categories:
+
+•	Low Weight: ≤150g
+
+•	Medium Weight: 151–250g
+
+•	High Weight: >250g
+
+Revenue was then compared across the different weight categories.
+####Purpose:
+
+•	Understand preferred pack sizes
+
+•	Identify which weight categories generate more revenue
+
+•	Provide insights that can support packaging and pricing decisions
+### 6. Revenue by Customer Lifestage
+Customer spending was segmented by lifestage to understand differences in purchasing behavior.
+The analysis considered customer groups such as:
+
+•	Young Singles/Couples
+
+•	Older Families
+
+•	Retirees
+
+•	Other customer lifestages
+#### Purpose:
+•	Identify high-value customer segments
+
+•	Understand differences in spending behavior
+
+•	Support more targeted marketing strategies
 
 
 
