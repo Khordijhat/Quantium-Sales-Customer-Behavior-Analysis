@@ -57,6 +57,7 @@ Key tasks included:
 The transaction and customer behavior tables were joined using the customer's loyalty card number.
 
 '''sql
+
 SELECT 
     Transaction_date,
     product_name,
