@@ -199,6 +199,25 @@ Microsoft Excel	Data transformation, Pivot Tables and analysis
 Excel Charts	Data visualization and reporting
 
 Regular Expressions	Extracting product weight information
+## 📈 Project Outcome
+This project demonstrates an end-to-end data analytics workflow, starting from raw transactional data, progressing through SQL-based data cleaning and transformation, and ending with Excel-based analysis and visualization.
+
+The analysis provided insights into sales trends, product performance, brand contribution, pack-size preferences, and customer lifestage behavior.
+
+More importantly, the project provided practical experience in transforming messy business data into structured information that can support data-driven commercial decisions.
+## 👩🏽‍💻 Skills Demonstrated
+•	Data Cleaning
+•	Data Transformation
+•	SQL Joins
+•	Regular Expressions
+•	Conditional Logic
+•	Data Aggregation
+•	Exploratory Data Analysis
+•	Pivot Tables
+•	Data Visualization
+•	Business Insight Generation
+•	Customer Segmentation
+•	Sales Analysis
 
 
 
