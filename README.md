@@ -54,7 +54,8 @@ Key tasks included:
 
 •	Identifying trends and patterns across products and customer segments
 ## SQL Data Cleaning
-'' The transaction and customer behavior tables were joined using the customer's loyalty card number.
+The transaction and customer behavior tables were joined using the customer's loyalty card number.
+
 SELECT 
     Transaction_date,
     product_name,
@@ -62,7 +63,6 @@ SELECT
     TXN,
     Store_nbr,
     Total_sales,
-
     CASE 
         WHEN product_name LIKE 'Dorit%' THEN 'Doritos'
         WHEN product_name LIKE 'GrnWves%' THEN 'Grain Waves'
@@ -74,7 +74,6 @@ SELECT
         WHEN product_name LIKE 'ww%' THEN 'Woolworths'
         ELSE SUBSTRING_INDEX(product_name, ' ', 1) 
     END AS Brand_name,
-
     CASE 
         WHEN CAST(REGEXP_SUBSTR(product_name, '[0-9]+g') AS UNSIGNED) <= 150 
             THEN 'Low weight'
@@ -82,13 +81,11 @@ SELECT
             THEN 'Medium weight'
         ELSE 'High weight'
     END AS Weight_category,
-
     lifestage,
     premium_customer
-
 FROM Transaction_data T
 JOIN purchased_behaviour P
-    ON T.loyalty_card_number = P.loyalty_card_number;''
+    ON T.loyalty_card_number = P.loyalty_card_number;
 
 
 
