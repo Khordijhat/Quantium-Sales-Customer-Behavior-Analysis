@@ -18,7 +18,7 @@ The analysis focuses on:
 ## Data Workflow
 The project followed a two-stage data workflow:
 
-1. SQL: Data Cleaning & Preparation
+### 1. SQL: Data Cleaning & Preparation
 
 MySQL was used to prepare and transform the raw transaction data before visualization.
 
@@ -36,7 +36,7 @@ Key tasks included:
 
 •	Combining transaction information with customer attributes
 
-2. Excel: Analysis & Visualization
+### 2. Excel: Analysis & Visualization
 
 The cleaned dataset was then analyzed in Microsoft Excel.
 
