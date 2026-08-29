@@ -113,7 +113,7 @@ A monthly revenue trend was created to understand how sales changed throughout t
 ### 2. Top Sales by Revenue
 Products/categories were ranked according to their total revenue contribution.
 
-####Purpose:
+#### Purpose:
 
 •	Identify major revenue contributors
 
@@ -150,7 +150,7 @@ Products were grouped into three weight categories:
 •	High Weight: >250g
 
 Revenue was then compared across the different weight categories.
-####Purpose:
+#### Purpose:
 
 •	Understand preferred pack sizes
 
@@ -174,6 +174,31 @@ The analysis considered customer groups such as:
 •	Understand differences in spending behavior
 
 •	Support more targeted marketing strategies
+## 🔑 Key Business Questions
+The analysis was designed to answer questions such as:
+
+1.	How does revenue change over time?
+   
+2.	Which products contribute the most revenue?
+	
+3.	Which brands perform best?
+	
+4.	Which product weight category generates the most revenue?
+	
+5.	Which customer lifestages contribute the most revenue?
+	
+6.	What patterns can be identified from customer purchasing behavior?
+## 🛠️ Tools & Technologies
+#### Tool	Purpose
+MySQL	Data cleaning, joining, transformation and pattern extraction
+
+SQL	Data manipulation and conditional logic
+
+Microsoft Excel	Data transformation, Pivot Tables and analysis
+
+Excel Charts	Data visualization and reporting
+
+Regular Expressions	Extracting product weight information
 
 
 
