@@ -1,2 +1,10 @@
 # Quantium-Sales-Customer-Behavior-Analysis
-This project presents an end-to-end data analysis workflow examining Quantium sales transaction data and customer purchasing behavior. The goal of this analysis is to identify key sales drivers, customer segment behaviors, and product performance to help guide strategic commercial decisions.
+## Project overview
+This project is an end-to-end analysis of Quantium transaction data, focused on understanding sales performance, product trends, and customer purchasing behavior.
+The analysis focuses on:
+•	Sales performance over time
+•	Product and brand performance
+•	Product weight preferences
+•	Customer purchasing behavior
+•	Customer lifestage segments
+•	Revenue contribution across different categories
