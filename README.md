@@ -55,6 +55,7 @@ Key tasks included:
 •	Identifying trends and patterns across products and customer segments
 ## SQL Data Cleaning
 The transaction and customer behavior tables were joined using the customer's loyalty card number.
+
 '''sql
 SELECT 
     Transaction_date,
